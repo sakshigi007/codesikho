@@ -1,18 +1,12 @@
-// a=[1,2,3,4,5].map(function(val){
-//     return val*val
-// })
-// console.log(a)
+class Dog{
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+        console.log(this.name,this.age)
+    }
+}
+d1=new Dog("bull-dog",24)
+d2=new Dog("xyz",20)
 
-// a=[{name:"sakshi",age:24},{name:"saksham",age:21},{name:"somu",age:15}]
-// b=a.filter(function(val){
-//     if(val.age>20){
-//         return true
-//     }
-//     else{
-//         return false
-//     }
-// })
-
-// console.log(b)
 
 
